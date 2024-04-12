@@ -804,11 +804,11 @@ A worker process has failed to exit gracefully and has been force exited. This i
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |     9.6 |        5 |    9.09 |     9.6 |                   
+All files              |    9.75 |        5 |    9.67 |    9.75 |                   
  App.tsx               |       0 |      100 |       0 |       0 | 6                 
  DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23             
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                   
- DetailedQuestions.tsx |       0 |        0 |       0 |       0 | 9-58              
+ DetailedQuestions.tsx |       0 |        0 |       0 |       0 | 10-51             
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32             
  Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28          
  LinkButton.tsx        |      20 |      100 |   33.33 |      20 | 12-16             
@@ -816,12 +816,12 @@ All files              |     9.6 |        5 |    9.09 |     9.6 |
  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                   
  SimpleQuestions.tsx   |       0 |        0 |       0 |       0 | 11-71             
  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 12-32             
- SliderQuestion.tsx    |       0 |      100 |       0 |       0 | 14-17             
+ SliderQuestion.tsx    |       0 |      100 |       0 |       0 | 15-18             
  index.tsx             |       0 |      100 |     100 |       0 | 8-23              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
 -----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
-Time:        4.453 s
+Time:        4.316 s
 Ran all test suites.
