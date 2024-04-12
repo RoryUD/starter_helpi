@@ -815,12 +815,12 @@ All files              |     9.6 |        5 |    9.09 |     9.6 |
  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                   
  SimpleQuestions.tsx   |       0 |        0 |       0 |       0 | 11-71             
  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 12-32             
- SliderQuestion.tsx    |       0 |      100 |       0 |       0 | 13-16             
+ SliderQuestion.tsx    |       0 |      100 |       0 |       0 | 14-17             
  index.tsx             |       0 |      100 |     100 |       0 | 8-23              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
 -----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
-Time:        4.456 s
+Time:        4.574 s
 Ran all test suites.
