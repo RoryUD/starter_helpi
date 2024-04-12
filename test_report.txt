@@ -807,6 +807,7 @@ File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line
 All files              |     9.6 |        5 |    9.09 |     9.6 |                   
  App.tsx               |       0 |      100 |       0 |       0 | 6                 
  DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23             
+ DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                   
  DetailedQuestions.tsx |       0 |        0 |       0 |       0 | 9-58              
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32             
  Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28          
@@ -822,5 +823,5 @@ All files              |     9.6 |        5 |    9.09 |     9.6 |
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
-Time:        4.574 s
+Time:        4.453 s
 Ran all test suites.
