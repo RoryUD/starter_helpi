@@ -2,18 +2,404 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/SimpleQuestions.test.tsx
-PASS src/DetailedQuestions.test.tsx
 PASS src/Home.test.tsx
+FAIL src/DetailedQuestions.test.tsx
+  ● Detailed Page Tests › Has User Input
+
+    TestingLibraryElementError: Unable to find an element with the text: I am a hard worker. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"body"[39m
+          [33mid[39m=[32m"bigBody"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"General-header"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-toggle"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [36m<span>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"form-check form-switch"[39m
+                  [36m>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"form-check-input"[39m
+                      [33mid[39m=[32m"is-dark-mode-check"[39m
+                      [33mtype[39m=[32m"checkbox"[39m
+                    [36m/>[39m
+                    [36m<label[39m
+                      [33mclass[39m=[32m"form-check-label"[39m
+                      [33mfor[39m=[32m"is-dark-mode-check"[39m
+                      [33mtitle[39m=[32m""[39m
+                    [36m>[39m
+                      [0mDark Mode[0m
+                    [36m</label>[39m
+                  [36m</div>[39m
+                [36m</span>[39m
+              [36m</span>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mThe Career Lab [0m
+            [36m</span>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-button"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</button>[39m
+            [36m</span>[39m
+            [0m [0m
+          [36m</header>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Page-body"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mGenerate Detailed Question Page[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mNext[0m
+            [36m</button>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"Detailed-report-button"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mReport[0m
+              [36m</button>[39m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"container"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"row"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"DetailedQuestions-questions col"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"DetailedQuestions-slider"[39m
+                  [36m>[39m
+                    [36m<label>[39m
+                      [0mQuestion: [0m
+                    [36m</label>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-questions"[39m
+                    [36m>[39m
+                      [0mI am a hard worker.[0m
+                    [36m</p>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-text"[39m
+                    [36m>[39m
+                      [0mStrongly Agree[0m
+                    [36m</p>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"Slider-slider form-range"[39m
+                      [33mtype[39m=[32m"range"[39m
+                      [33mvalue[39m=[32m"50"[39m
+                    [36m/>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-text"[39m
+                    [36m>[39m
+                      [0mStrongly Disagree[0m
+                    [36m</p>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-value"[39m
+                    [36m>[39m
+                      [0m50[0m
+                    [36m</p>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"DetailedQuestions-progress-bar"[39m
+                    [33mstyle[39m=[32m"background-color: red;"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-question-number"[39m
+                    [36m>[39m
+                      [0mQuestion [0m
+                      [0m1[0m
+                      [0m/[0m
+                      [0m30[0m
+                    [36m</span>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-progress-bar-percentage"[39m
+                    [36m>[39m
+                      [0m3.3333333333333335[0m
+                      [0m% completed[0m
+                    [36m</span>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-progress-bar-foreground"[39m
+                      [33mstyle[39m=[32m"height: 3.3333333333333335%; background-color: rgba(0, 0, 0, 0.3);"[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"API-Footer"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m""[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-label"[39m
+              [36m>[39m
+                [0mAPI Key:[0m
+              [36m</label>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-control"[39m
+                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                [33mtype[39m=[32m"password"[39m
+              [36m/>[39m
+              [36m<br />[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSubmit[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      12 |     test('Has User Input', () => {
+      13 |         render(<HashRouter><DetailedQuestions /></HashRouter>);
+    > 14 |         const linkElement = screen.getByText("I am a hard worker");
+         |                                    ^
+      15 |         expect(linkElement).toBeInTheDocument();
+      16 |     });
+      17 |     test('Has Progress Bar', () => {
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/DetailedQuestions.test.tsx:14:36)
+
+  ● Detailed Page Tests › Has Progress Bar
+
+    TestingLibraryElementError: Unable to find an element with the text: 10% completed. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"body"[39m
+          [33mid[39m=[32m"bigBody"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"General-header"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-toggle"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [36m<span>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"form-check form-switch"[39m
+                  [36m>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"form-check-input"[39m
+                      [33mid[39m=[32m"is-dark-mode-check"[39m
+                      [33mtype[39m=[32m"checkbox"[39m
+                    [36m/>[39m
+                    [36m<label[39m
+                      [33mclass[39m=[32m"form-check-label"[39m
+                      [33mfor[39m=[32m"is-dark-mode-check"[39m
+                      [33mtitle[39m=[32m""[39m
+                    [36m>[39m
+                      [0mDark Mode[0m
+                    [36m</label>[39m
+                  [36m</div>[39m
+                [36m</span>[39m
+              [36m</span>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mThe Career Lab [0m
+            [36m</span>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-button"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</button>[39m
+            [36m</span>[39m
+            [0m [0m
+          [36m</header>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Page-body"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mGenerate Detailed Question Page[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mNext[0m
+            [36m</button>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"Detailed-report-button"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mReport[0m
+              [36m</button>[39m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"container"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"row"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"DetailedQuestions-questions col"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"DetailedQuestions-slider"[39m
+                  [36m>[39m
+                    [36m<label>[39m
+                      [0mQuestion: [0m
+                    [36m</label>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-questions"[39m
+                    [36m>[39m
+                      [0mI am a hard worker.[0m
+                    [36m</p>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-text"[39m
+                    [36m>[39m
+                      [0mStrongly Agree[0m
+                    [36m</p>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"Slider-slider form-range"[39m
+                      [33mtype[39m=[32m"range"[39m
+                      [33mvalue[39m=[32m"50"[39m
+                    [36m/>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-text"[39m
+                    [36m>[39m
+                      [0mStrongly Disagree[0m
+                    [36m</p>[39m
+                    [36m<p[39m
+                      [33mclass[39m=[32m"Slider-value"[39m
+                    [36m>[39m
+                      [0m50[0m
+                    [36m</p>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"DetailedQuestions-progress-bar"[39m
+                    [33mstyle[39m=[32m"background-color: pink;"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-question-number"[39m
+                    [36m>[39m
+                      [0mQuestion [0m
+                      [0m1[0m
+                      [0m/[0m
+                      [0m30[0m
+                    [36m</span>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-progress-bar-percentage"[39m
+                    [36m>[39m
+                      [0m3.3333333333333335[0m
+                      [0m% completed[0m
+                    [36m</span>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"DetailedQuestions-progress-bar-foreground"[39m
+                      [33mstyle[39m=[32m"height: 3.3333333333333335%; background-color: rgba(0, 0, 0, 0.3);"[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"API-Footer"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m""[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-label"[39m
+              [36m>[39m
+                [0mAPI Key:[0m
+              [36m</label>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-control"[39m
+                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                [33mtype[39m=[32m"password"[39m
+              [36m/>[39m
+              [36m<br />[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSubmit[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      17 |     test('Has Progress Bar', () => {
+      18 |         render(<HashRouter><DetailedQuestions /></HashRouter>);
+    > 19 |         const linkElement = screen.getByText("10% completed");
+         |                                    ^
+      20 |         expect(linkElement).toBeInTheDocument();
+      21 |     });
+      22 |     test('Has Footer', () => {
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/DetailedQuestions.test.tsx:19:36)
+
+PASS src/SimpleQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   44.71 |       15 |    25.8 |   44.71 |                   
+All files              |   46.93 |    13.63 |   27.77 |   47.58 |                   
  App.tsx               |       0 |      100 |       0 |       0 | 6                 
  DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23             
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                   
- DetailedQuestions.tsx |      65 |       50 |      20 |      65 | 14,30-42,51       
+ DetailedQuestions.tsx |   61.36 |       25 |      30 |   64.28 | 20,55-64,69-81,90 
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32             
  Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28          
  LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 13,17             
@@ -26,8 +412,8 @@ All files              |   44.71 |       15 |    25.8 |   44.71 |
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
 -----------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 3 passed, 3 total
-Tests:       14 passed, 14 total
+Test Suites: 1 failed, 2 passed, 3 total
+Tests:       2 failed, 12 passed, 14 total
 Snapshots:   0 total
-Time:        4.525 s
+Time:        4.978 s
 Ran all test suites.
