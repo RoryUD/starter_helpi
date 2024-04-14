@@ -3,6 +3,7 @@
 > react-scripts test --coverage
 
 PASS src/Home.test.tsx
+PASS src/SimpleQuestions.test.tsx
 FAIL src/DetailedQuestions.test.tsx
   ● Detailed Page Tests › Has User Input
 
@@ -60,12 +61,6 @@ FAIL src/DetailedQuestions.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"Page-body"[39m
           [36m>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mGenerate Detailed Question Page[0m
-            [36m</button>[39m
             [36m<button[39m
               [33mclass[39m=[32m"btn btn-primary"[39m
               [33mtype[39m=[32m"button"[39m
@@ -129,7 +124,7 @@ FAIL src/DetailedQuestions.test.tsx
                 [36m>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"DetailedQuestions-progress-bar"[39m
-                    [33mstyle[39m=[32m"background-color: red;"[39m
+                    [33mstyle[39m=[32m"background-color: brown;"[39m
                   [36m>[39m
                     [36m<span[39m
                       [33mclass[39m=[32m"DetailedQuestions-question-number"[39m
@@ -142,7 +137,7 @@ FAIL src/DetailedQuestions.test.tsx
                     [36m<span[39m
                       [33mclass[39m=[32m"DetailedQuestions-progress-bar-percentage"[39m
                     [36m>[39m
-                      [0m3.3333333333333335[0m
+                      [0m3[0m
                       [0m% completed[0m
                     [36m</span>[39m
                     [36m<span[39m
@@ -257,12 +252,6 @@ FAIL src/DetailedQuestions.test.tsx
               [33mclass[39m=[32m"btn btn-primary"[39m
               [33mtype[39m=[32m"button"[39m
             [36m>[39m
-              [0mGenerate Detailed Question Page[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
               [0mNext[0m
             [36m</button>[39m
             [36m<p[39m
@@ -322,7 +311,7 @@ FAIL src/DetailedQuestions.test.tsx
                 [36m>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"DetailedQuestions-progress-bar"[39m
-                    [33mstyle[39m=[32m"background-color: pink;"[39m
+                    [33mstyle[39m=[32m"background-color: brown;"[39m
                   [36m>[39m
                     [36m<span[39m
                       [33mclass[39m=[32m"DetailedQuestions-question-number"[39m
@@ -335,7 +324,7 @@ FAIL src/DetailedQuestions.test.tsx
                     [36m<span[39m
                       [33mclass[39m=[32m"DetailedQuestions-progress-bar-percentage"[39m
                     [36m>[39m
-                      [0m3.3333333333333335[0m
+                      [0m3[0m
                       [0m% completed[0m
                     [36m</span>[39m
                     [36m<span[39m
@@ -390,19 +379,18 @@ FAIL src/DetailedQuestions.test.tsx
       at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
       at Object.<anonymous> (src/DetailedQuestions.test.tsx:19:36)
 
-PASS src/SimpleQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   46.93 |    13.63 |   27.77 |   47.58 |                   
+All files              |   47.22 |    13.63 |   28.57 |   47.88 |                   
  App.tsx               |       0 |      100 |       0 |       0 | 6                 
  DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23             
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                   
- DetailedQuestions.tsx |   61.36 |       25 |      30 |   64.28 | 20,55-64,69-81,90 
+ DetailedQuestions.tsx |   63.41 |       25 |   33.33 |   66.66 | 20,54-75,83       
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32             
  Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28          
- LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 13,17             
+ LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 13,16             
  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                
  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                   
  SimpleQuestions.tsx   |   71.05 |       25 |      50 |   71.05 | 15,22-28,59-67    
@@ -411,9 +399,8 @@ All files              |   46.93 |    13.63 |   27.77 |   47.58 |
  index.tsx             |       0 |      100 |     100 |       0 | 8-23              
  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
 -----------------------|---------|----------|---------|---------|-------------------
-
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       2 failed, 12 passed, 14 total
 Snapshots:   0 total
-Time:        4.978 s
+Time:        5.007 s
 Ran all test suites.
