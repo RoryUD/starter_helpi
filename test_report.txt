@@ -2,32 +2,32 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
+PASS src/Home.test.tsx
 PASS src/DetailedQuestions.test.tsx
 PASS src/SimpleQuestions.test.tsx
-PASS src/Home.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
------------------------|---------|----------|---------|---------|-------------------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
------------------------|---------|----------|---------|---------|-------------------------------
-All files              |   37.83 |      7.5 |   26.31 |   38.25 |                               
- App.tsx               |       0 |      100 |       0 |       0 | 6                             
- DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23                         
- DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
- DetailedQuestions.tsx |   53.06 |     12.5 |   33.33 |   55.31 | 20,52-83,95                   
- DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32                         
- Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
- LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                         
- RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                            
- SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                               
- SimpleQuestions.tsx   |   40.84 |     5.55 |   33.33 |   40.84 | 15,22-28,60-80,86-106,133-136 
- SimpleReport.tsx      |       0 |        0 |       0 |       0 | 12-32                         
- SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                            
- index.tsx             |       0 |      100 |     100 |       0 | 8-23                          
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                          
------------------------|---------|----------|---------|---------|-------------------------------
+-----------------------|---------|----------|---------|---------|----------------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
+-----------------------|---------|----------|---------|---------|----------------------------------
+All files              |   37.96 |     9.52 |   26.31 |   38.37 |                                  
+ App.tsx               |       0 |      100 |       0 |       0 | 6                                
+ DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23                            
+ DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
+ DetailedQuestions.tsx |   53.06 |     12.5 |   33.33 |   55.31 | 20,52-83,95                      
+ DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32                            
+ Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                         
+ LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                            
+ RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
+ SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
+ SimpleQuestions.tsx   |   41.09 |       10 |   33.33 |   41.09 | 15,22-28,58,63-83,89-110,141-144 
+ SimpleReport.tsx      |       0 |        0 |       0 |       0 | 12-32                            
+ SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
+ index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
+ reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
+-----------------------|---------|----------|---------|---------|----------------------------------
 
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        4.825 s
+Time:        4.859 s
 Ran all test suites.
