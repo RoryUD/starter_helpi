@@ -2,7 +2,6 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Home.test.tsx
 PASS src/SimpleQuestions.test.tsx
   ● Console
 
@@ -43,7 +42,48 @@ PASS src/SimpleQuestions.test.tsx
       at render (node_modules/@testing-library/react/dist/pure.js:246:10)
       at Object.<anonymous> (src/SimpleQuestions.test.tsx:8:15)
 
+PASS src/Home.test.tsx
 FAIL src/DetailedQuestions.test.tsx
+  ● Console
+
+    console.error
+      Warning: Each child in a list should have a unique "key" prop.
+      
+      Check the render method of `DetailedQuestions`. See https://reactjs.org/link/warning-keys for more information.
+          at p
+          at DetailedQuestions (/home/runner/work/starter_helpi/starter_helpi/src/DetailedQuestions.tsx:24:33)
+          at Router (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:413:13)
+          at HashRouter (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router-dom/index.tsx:808:3)
+
+      148 |               </div>
+      149 |
+    > 150 |               <div className='DetailedQuestions-answers-display'>
+          |               ^
+      151 |                 
+      152 |                   {sliderValues.map((x, i) => <p>Q{i+1}: {x}</p>)}
+      153 |                 
+
+      at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:87:30)
+      at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:61:7)
+      at validateExplicitKey (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1078:5)
+      at validateChildKeys (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1105:11)
+      at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1276:11)
+      at DetailedQuestions (src/DetailedQuestions.tsx:150:15)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25738:74)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/DetailedQuestions.test.tsx:8:15)
+
   ● Detailed Page Tests › Has Progress Bar
 
     TestingLibraryElementError: Unable to find an element with the text: 3% completed. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
@@ -180,7 +220,7 @@ FAIL src/DetailedQuestions.test.tsx
                 [36m>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"DetailedQuestions-progress-bar"[39m
-                    [33mstyle[39m=[32m"background-color: purple;"[39m
+                    [33mstyle[39m=[32m"background-color: blue;"[39m
                   [36m>[39m
                     [36m<span[39m
                       [33mclass[39m=[32m"DetailedQuestions-question-number"[39m
@@ -200,6 +240,190 @@ FAIL src/DetailedQuestions.test.tsx
                       [33mclass[39m=[32m"DetailedQuestions-progress-bar-foreground"[39m
                       [33mstyle[39m=[32m"height: 0%; background-color: rgba(0, 0, 0, 0.3);"[39m
                     [36m/>[39m
+                  [36m</div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"DetailedQuestions-answers-display"[39m
+                  [36m>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m1[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m2[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m3[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m4[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m5[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m6[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m7[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m8[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m9[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m10[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m11[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m12[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m13[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m14[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m15[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m16[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m17[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m18[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m19[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m20[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m21[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m22[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m23[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m24[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m25[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m26[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m27[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m28[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m29[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mQ[0m
+                      [0m30[0m
+                      [0m: [0m
+                      [0m50[0m
+                    [36m</p>[39m
                   [36m</div>[39m
                 [36m</div>[39m
               [36m</div>[39m
@@ -252,11 +476,11 @@ A worker process has failed to exit gracefully and has been force exited. This i
 -----------------------|---------|----------|---------|---------|-------------------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
 -----------------------|---------|----------|---------|---------|-------------------------------
-All files              |   34.61 |     5.76 |   25.64 |   34.95 |                               
+All files              |   34.11 |     5.76 |    27.5 |   34.43 |                               
  App.tsx               |       0 |      100 |       0 |       0 | 6                             
  DarkModeToggle.tsx    |   33.33 |        0 |      50 |   33.33 | 12-23                         
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
- DetailedQuestions.tsx |   41.17 |     5.55 |      30 |   42.42 | 20,53-75,81-114,127           
+ DetailedQuestions.tsx |   39.18 |     5.55 |   36.36 |   40.27 | 20,54-78,84-122,135           
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32                         
  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
  LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                         
@@ -271,5 +495,5 @@ All files              |   34.61 |     5.76 |   25.64 |   34.95 |
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       1 failed, 13 passed, 14 total
 Snapshots:   0 total
-Time:        4.957 s
+Time:        4.942 s
 Ran all test suites.
