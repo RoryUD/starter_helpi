@@ -55,20 +55,20 @@ PASS src/DetailedQuestions.test.tsx
           at Router (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:413:13)
           at HashRouter (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router-dom/index.tsx:808:3)
 
-      146 |                 <span className = "DetailedQuestions-progress-bar-foreground" style={{height: `${(100 * (questionNumber / numberOfQuestions))}%`, backgroundColor: "rgba(0, 0, 0, 0.3)"}}></span>
-      147 |               </div>
-    > 148 |               <span className='DetailedQuestions-answers-display'>
+      160 |                 <span className = "DetailedQuestions-progress-bar-foreground" style={{height: `${(100 * (questionNumber / numberOfQuestions))}%`, backgroundColor: "rgba(0, 0, 0, 0.3)"}}></span>
+      161 |               </div>
+    > 162 |               <span className='DetailedQuestions-answers-display'>
           |               ^
-      149 |                 {sliderValues.map((x, i) => <p>Q{i+1}: {x}</p>)}
-      150 |               </span>
-      151 |             </Col>
+      163 |                 {sliderValues.map((x, i) => <p>Q{i+1}: {x}</p>)}
+      164 |               </span>
+      165 |             </Col>
 
       at printWarning (node_modules/react/cjs/react-jsx-dev-runtime.development.js:87:30)
       at error (node_modules/react/cjs/react-jsx-dev-runtime.development.js:61:7)
       at validateExplicitKey (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1078:5)
       at validateChildKeys (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1105:11)
       at jsxWithValidation (node_modules/react/cjs/react-jsx-dev-runtime.development.js:1276:11)
-      at DetailedQuestions (src/DetailedQuestions.tsx:148:15)
+      at DetailedQuestions (src/DetailedQuestions.tsx:162:15)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
@@ -88,12 +88,12 @@ A worker process has failed to exit gracefully and has been force exited. This i
 -----------------------|---------|----------|---------|---------|-------------------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
 -----------------------|---------|----------|---------|---------|-------------------------------
-All files              |    34.1 |     5.76 |   26.82 |   34.41 |                               
+All files              |   32.59 |     5.35 |   26.82 |   32.88 |                               
  App.tsx               |       0 |      100 |       0 |       0 | 6                             
  DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 4                             
  DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 13-25                         
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
- DetailedQuestions.tsx |   39.18 |     5.55 |   36.36 |   40.27 | 20,54-74,80-118,133           
+ DetailedQuestions.tsx |   34.52 |     4.54 |   36.36 |   35.36 | 20,54-81,87-130,147           
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-32                         
  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
  LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                         
@@ -109,5 +109,5 @@ All files              |    34.1 |     5.76 |   26.82 |   34.41 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        5.044 s
+Time:        5.16 s
 Ran all test suites.
