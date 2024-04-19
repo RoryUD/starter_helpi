@@ -2,8 +2,8 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/SimpleQuestions.test.tsx
 PASS src/Home.test.tsx
+PASS src/SimpleQuestions.test.tsx
 PASS src/DetailedQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 -----------------------|---------|----------|---------|---------|-------------------------------
@@ -12,7 +12,7 @@ File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line
 All files              |   31.87 |     5.55 |   26.19 |   32.15 |                               
  APIFooter.tsx         |       0 |      100 |       0 |       0 | 1-6                           
  DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 4                             
- DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 13-25                         
+ DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 13-26                         
  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
  DetailedQuestions.tsx |   33.75 |     4.54 |   36.36 |   34.61 | 20,53-80,86-129,146           
  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 13-31                         
@@ -32,5 +32,5 @@ All files              |   31.87 |     5.55 |   26.19 |   32.15 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        4.981 s
+Time:        5.061 s
 Ran all test suites.
