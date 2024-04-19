@@ -9,7 +9,7 @@ A worker process has failed to exit gracefully and has been force exited. This i
 ------------------------|---------|----------|---------|---------|-------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
 ------------------------|---------|----------|---------|---------|-------------------------------
-All files               |   31.87 |     5.55 |   26.19 |   32.15 |                               
+All files               |   31.73 |     5.55 |   26.19 |   32.01 |                               
  src                    |       0 |        0 |       0 |       0 |                               
   APIFooter.tsx         |       0 |      100 |       0 |       0 | 1-5                           
   OpenAITest.tsx        |       0 |        0 |       0 |       0 |                               
@@ -22,8 +22,8 @@ All files               |   31.87 |     5.55 |   26.19 |   32.15 |
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                         
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                            
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                            
- src/Pages              |   34.23 |     6.52 |   27.58 |   34.61 |                               
-  DetailedQuestions.tsx |   33.75 |     4.54 |   36.36 |   34.61 | 20,53-82,88-130,169           
+ src/Pages              |   34.05 |     6.52 |   27.58 |   34.42 |                               
+  DetailedQuestions.tsx |   33.33 |     4.54 |   36.36 |   34.17 | 16,23-29,58-88,94-122,164     
   DetailedReport.tsx    |       0 |        0 |       0 |       0 | 13-31                         
   Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
   SimpleQuestions.tsx   |   39.47 |     5.55 |   33.33 |   39.47 | 15,22-28,61-83,89-113,174-182 
@@ -36,5 +36,5 @@ All files               |   31.87 |     5.55 |   26.19 |   32.15 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        5.164 s
+Time:        4.992 s
 Ran all test suites.
