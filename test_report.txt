@@ -2,19 +2,18 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Tests/Home.test.tsx
 PASS src/Tests/SimpleQuestions.test.tsx
+PASS src/Tests/Home.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 ------------------------|---------|----------|---------|---------|-------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
 ------------------------|---------|----------|---------|---------|-------------------------------
-All files               |   31.73 |     5.55 |   26.19 |   32.01 |                               
+All files               |   31.93 |     5.35 |   25.58 |    32.2 |                               
  src                    |       0 |        0 |       0 |       0 |                               
   APIFooter.tsx         |       0 |      100 |       0 |       0 | 1-5                           
-  OpenAITest.tsx        |       0 |        0 |       0 |       0 |                               
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                          
-  openai-test.js        |       0 |      100 |       0 |       0 | 3-16                          
+  openai-test.js        |       0 |      100 |       0 |       0 | 3-22                          
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                          
  src/Components         |   38.46 |        0 |   33.33 |   38.46 |                               
   DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 5                             
@@ -22,10 +21,10 @@ All files               |   31.73 |     5.55 |   26.19 |   32.01 |
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,17                         
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                            
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                            
- src/Pages              |   34.05 |     6.52 |   27.58 |   34.42 |                               
+ src/Pages              |   34.37 |     6.25 |   26.66 |   34.73 |                               
   DetailedQuestions.tsx |   33.33 |     4.54 |   36.36 |   34.17 | 16,23-29,58-88,94-122,164     
   DetailedReport.tsx    |       0 |        0 |       0 |       0 | 13-31                         
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
+  Home.tsx              |   52.94 |       25 |      25 |   52.94 | 20,28-51                      
   SimpleQuestions.tsx   |   39.47 |     5.55 |   33.33 |   39.47 | 15,22-28,61-83,89-113,174-182 
   SimpleReport.tsx      |       0 |        0 |       0 |       0 | 11-31                         
  src/QuestionData       |       0 |        0 |       0 |       0 |                               
@@ -36,5 +35,5 @@ All files               |   31.73 |     5.55 |   26.19 |   32.01 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        4.992 s
+Time:        5.032 s
 Ran all test suites.
