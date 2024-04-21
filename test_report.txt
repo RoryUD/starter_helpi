@@ -20,11 +20,11 @@ All files               |   30.93 |     5.17 |   26.19 |   31.19 |
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                            
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                            
  src/Pages              |   31.65 |        6 |    25.8 |   31.97 |                               
-  DetailedQuestions.tsx |   33.33 |     4.54 |   36.36 |   34.17 | 16,23-29,58-88,94-122,164     
-  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 12-60                         
+  DetailedQuestions.tsx |   33.33 |     4.54 |   36.36 |   34.17 | 17,24-30,59-89,95-123,165     
+  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 11-59                         
   Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
-  SimpleQuestions.tsx   |   39.47 |     5.55 |   33.33 |   39.47 | 15,22-28,61-83,89-113,174-182 
-  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 12-60                         
+  SimpleQuestions.tsx   |   39.47 |     5.55 |   33.33 |   39.47 | 16,23-29,62-84,90-114,175-183 
+  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 11-59                         
  src/QuestionData       |       0 |        0 |       0 |       0 |                               
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                               
@@ -33,5 +33,5 @@ All files               |   30.93 |     5.17 |   26.19 |   31.19 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        4.993 s
+Time:        4.959 s
 Ran all test suites.
