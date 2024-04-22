@@ -2,14 +2,14 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Tests/SimpleQuestions.test.tsx
 PASS src/Tests/Home.test.tsx
+PASS src/Tests/SimpleQuestions.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |    30.2 |     5.17 |      25 |   30.45 |                                  
+All files               |   29.13 |     5.17 |   22.91 |   29.48 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
@@ -19,9 +19,9 @@ All files               |    30.2 |     5.17 |      25 |   30.45 |
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,18                            
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
- src/Pages              |   30.76 |        6 |   24.24 |   31.06 |                                  
+ src/Pages              |   29.49 |        6 |   21.62 |    29.9 |                                  
   DetailedQuestions.tsx |   32.92 |     4.54 |   36.36 |   33.75 | 17,26-32,60-91,97-125,167        
-  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 11-59                            
+  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 15-79                            
   Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                         
   SimpleQuestions.tsx   |   39.24 |     5.55 |      30 |   39.24 | 16,22,29-35,68-91,97-121,182-190 
   SimpleReport.tsx      |       0 |        0 |       0 |       0 | 13-72                            
@@ -33,5 +33,5 @@ All files               |    30.2 |     5.17 |      25 |   30.45 |
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        5.049 s
+Time:        5.044 s
 Ran all test suites.
