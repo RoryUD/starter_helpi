@@ -2,36 +2,36 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Tests/Home.test.tsx
 PASS src/Tests/SimpleQuestions.test.tsx
+PASS src/Tests/Home.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
-------------------------|---------|----------|---------|---------|-------------------------------
-File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s             
-------------------------|---------|----------|---------|---------|-------------------------------
-All files               |    30.2 |     5.17 |      25 |   30.57 |                               
- src                    |       0 |        0 |       0 |       0 |                               
-  index.tsx             |       0 |      100 |     100 |       0 | 8-23                          
-  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                          
- src/Components         |   38.46 |        0 |   33.33 |   38.46 |                               
-  DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 5                             
-  DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 13-26                         
-  LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,18                         
-  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                            
-  SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                            
- src/Pages              |   30.76 |        6 |   24.24 |   31.21 |                               
-  DetailedQuestions.tsx |   32.92 |     4.54 |   36.36 |   33.75 | 18,27-33,62-93,99-127,169     
-  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 13-61                         
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                      
-  SimpleQuestions.tsx   |   39.24 |     5.55 |      30 |   39.24 | 16,25-31,64-87,93-117,178-222 
-  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 13-65                         
- src/QuestionData       |       0 |        0 |       0 |       0 |                               
-  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                               
-  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                               
-------------------------|---------|----------|---------|---------|-------------------------------
+------------------------|---------|----------|---------|---------|----------------------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
+------------------------|---------|----------|---------|---------|----------------------------------
+All files               |    30.2 |     5.17 |      25 |   30.45 |                                  
+ src                    |       0 |        0 |       0 |       0 |                                  
+  index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
+  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
+ src/Components         |   38.46 |        0 |   33.33 |   38.46 |                                  
+  DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 5                                
+  DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 13-26                            
+  LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,18                            
+  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
+  SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
+ src/Pages              |   30.76 |        6 |   24.24 |   31.06 |                                  
+  DetailedQuestions.tsx |   32.92 |     4.54 |   36.36 |   33.75 | 17,26-32,60-91,97-125,167        
+  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 11-59                            
+  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                         
+  SimpleQuestions.tsx   |   39.24 |     5.55 |      30 |   39.24 | 16,22,29-35,68-91,97-121,182-190 
+  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 13-72                            
+ src/QuestionData       |       0 |        0 |       0 |       0 |                                  
+  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
+  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
+------------------------|---------|----------|---------|---------|----------------------------------
 
 Test Suites: 3 passed, 3 total
 Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        5.045 s
+Time:        5.049 s
 Ran all test suites.
