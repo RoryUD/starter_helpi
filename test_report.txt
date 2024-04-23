@@ -3,13 +3,50 @@
 > react-scripts test --coverage
 
 PASS src/Tests/Home.test.tsx
-PASS src/Tests/SimpleQuestions.test.tsx
+PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
-A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
+PASS src/Tests/SimpleReport.test.tsx
+PASS src/Tests/SimpleQuestions.test.tsx
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   29.13 |     5.17 |   22.91 |   29.48 |                                  
+All files               |    37.6 |     8.62 |   35.41 |   37.65 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
@@ -19,19 +56,19 @@ All files               |   29.13 |     5.17 |   22.91 |   29.48 |
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,18                            
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
- src/Pages              |   29.49 |        6 |   21.62 |    29.9 |                                  
-  DetailedQuestions.tsx |   32.92 |     4.54 |   36.36 |   33.75 | 17,26-32,60-91,97-125,166        
-  DetailedReport.tsx    |       0 |        0 |       0 |       0 | 14-79                            
+ src/Pages              |   39.43 |       10 |   37.83 |   39.52 |                                  
+  DetailedQuestions.tsx |   31.25 |     4.54 |   36.36 |   32.05 | 17,26-32,59-90,96-124,165        
+  DetailedReport.tsx    |      64 |       25 |    62.5 |    62.5 | 18,26-31,55-75                   
   Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                         
-  SimpleQuestions.tsx   |   39.24 |     5.55 |      30 |   39.24 | 16,22,29-35,68-91,97-121,182-190 
-  SimpleReport.tsx      |       0 |        0 |       0 |       0 | 13-72                            
+  SimpleQuestions.tsx   |   37.66 |     5.55 |      30 |   37.66 | 16,22,29-35,66-89,95-119,180-188 
+  SimpleReport.tsx      |   38.09 |       25 |      20 |   38.09 | 17,26-31,38-68                   
  src/QuestionData       |       0 |        0 |       0 |       0 |                                  
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
 ------------------------|---------|----------|---------|---------|----------------------------------
 
-Test Suites: 3 passed, 3 total
-Tests:       14 passed, 14 total
+Test Suites: 5 passed, 5 total
+Tests:       22 passed, 22 total
 Snapshots:   0 total
-Time:        5.11 s
+Time:        5.335 s
 Ran all test suites.
