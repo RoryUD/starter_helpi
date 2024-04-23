@@ -2,8 +2,8 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/Home.test.tsx
+PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/DarkMode.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
@@ -71,5 +71,5 @@ All files               |   43.39 |     19.4 |      42 |   43.51 |
 Test Suites: 6 passed, 6 total
 Tests:       24 passed, 24 total
 Snapshots:   0 total
-Time:        5.356 s
+Time:        5.342 s
 Ran all test suites.
