@@ -5,6 +5,7 @@
 PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/Home.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
+PASS src/Tests/DarkMode.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
 PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
@@ -46,13 +47,13 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   39.23 |    11.29 |      38 |   39.29 |                                  
+All files               |   43.07 |    16.12 |      42 |   43.19 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
- src/Components         |   38.46 |        0 |   33.33 |   38.46 |                                  
-  DarkModeParent.tsx    |      50 |      100 |       0 |      50 | 5                                
-  DarkModeToggle.tsx    |   31.25 |        0 |      50 |   31.25 | 14-27                            
+ src/Components         |   76.92 |       75 |   55.55 |   76.92 |                                  
+  DarkModeParent.tsx    |     100 |      100 |     100 |     100 |                                  
+  DarkModeToggle.tsx    |    87.5 |       75 |     100 |    87.5 | 28-29                            
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,18                            
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
@@ -67,8 +68,8 @@ All files               |   39.23 |    11.29 |      38 |   39.29 |
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
 ------------------------|---------|----------|---------|---------|----------------------------------
 
-Test Suites: 5 passed, 5 total
-Tests:       22 passed, 22 total
+Test Suites: 6 passed, 6 total
+Tests:       24 passed, 24 total
 Snapshots:   0 total
-Time:        5.288 s
+Time:        5.354 s
 Ran all test suites.
