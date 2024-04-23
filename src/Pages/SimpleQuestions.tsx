@@ -36,14 +36,14 @@ function SimpleQuestions() {
   }
 
   const [questions, setQuestions] = useState<SimpleQuestion[]>([]);
-  const [numberOfQuestions, setNumberOfQuestions] = useState(15);
-  const [questionNumber, setQuestionNumber] = useState(0);
-  const [currentQuestionNumber, setCurrentQuestionNumber] = useState(1);
-  const [questionBody, setQuestionBody] = useState("Question...");
-  const [option1, setOption1] = useState("Option 1...");
-  const [option2, setOption2] = useState("Option 2...");
-  const [color, setColor] = useState("");
-  const [backButtonDisabled, setBackButtonDisabled] = useState(true);
+  const [numberOfQuestions, setNumberOfQuestions] = useState<number>(15);
+  const [questionNumber, setQuestionNumber] = useState<number>(0);
+  const [currentQuestionNumber, setCurrentQuestionNumber] = useState<number>(1);
+  const [questionBody, setQuestionBody] = useState<string>("Question...");
+  const [option1, setOption1] = useState<string>("Option 1...");
+  const [option2, setOption2] = useState<string>("Option 2...");
+  const [color, setColor] = useState<string>("");
+  const [backButtonDisabled, setBackButtonDisabled] = useState<boolean>(true);
 
   useEffect(() => {
     const colors = ["red", "orange", "green", "blue", "purple", "pink", "brown"];
