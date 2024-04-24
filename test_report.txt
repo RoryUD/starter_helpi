@@ -2,8 +2,8 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/Tests/Home.test.tsx
 PASS src/Tests/Components.test.tsx
+PASS src/Tests/Home.test.tsx
 PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
@@ -47,29 +47,29 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   44.15 |    20.89 |      42 |   44.27 |                                  
+All files               |   39.76 |    15.38 |      38 |   39.84 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
- src/Components         |   84.61 |      100 |   55.55 |   84.61 |                                  
-  DarkModeParent.tsx    |     100 |      100 |     100 |     100 |                                  
-  DarkModeToggle.tsx    |     100 |      100 |     100 |     100 |                                  
+ src/Components         |      40 |        0 |   33.33 |      40 |                                  
   LinkButton.tsx        |      60 |      100 |   33.33 |      60 | 14,21                            
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 10                               
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
+  ThemeParent.tsx       |      50 |      100 |       0 |      50 | 5                                
+  ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                            
  src/Pages              |   41.66 |    16.94 |   41.02 |   41.77 |                                  
-  DetailedQuestions.tsx |   34.52 |     8.33 |   41.66 |   35.36 | 18,27-33,65-96,102-130,171       
-  DetailedReport.tsx    |   63.33 |    44.44 |    62.5 |   62.06 | 18,27-32,57-81                   
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 14,22-27                         
-  SimpleQuestions.tsx   |      40 |     5.55 |   36.36 |      40 | 16,22,29-35,69-92,98-122,183-191 
-  SimpleReport.tsx      |    37.5 |    33.33 |      20 |    37.5 | 17,27-32,38-72                   
+  DetailedQuestions.tsx |   34.52 |     8.33 |   41.66 |   35.36 | 18,27-33,64-95,101-129,170       
+  DetailedReport.tsx    |   63.33 |    44.44 |    62.5 |   62.06 | 19,28-33,59-85                   
+  Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                         
+  SimpleQuestions.tsx   |      40 |     5.55 |   36.36 |      40 | 17,23,30-36,70-93,99-123,184-192 
+  SimpleReport.tsx      |    37.5 |    33.33 |      20 |    37.5 | 18,28-33,39-73                   
  src/QuestionData       |       0 |        0 |       0 |       0 |                                  
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
 ------------------------|---------|----------|---------|---------|----------------------------------
 
 Test Suites: 6 passed, 6 total
-Tests:       26 passed, 26 total
+Tests:       23 passed, 23 total
 Snapshots:   0 total
-Time:        5.3 s
+Time:        5.345 s
 Ran all test suites.
