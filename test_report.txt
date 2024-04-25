@@ -422,7 +422,6 @@ FAIL src/Tests/Components.test.tsx
       at Object.<anonymous> (src/Tests/Components.test.tsx:36:46)
 
 PASS src/Tests/DetailedQuestions.test.tsx
-PASS src/Tests/SimpleReport.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -435,6 +434,7 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleReport.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
