@@ -3,35 +3,411 @@
 > react-scripts test --coverage
 
 PASS src/Tests/Home.test.tsx
-PASS src/Tests/Components.test.tsx
 PASS src/Tests/DetailedReport.test.tsx
+FAIL src/Tests/Components.test.tsx
+  ● Theme Tests › Theme Drop Down
+
+    TestingLibraryElementError: Unable to find an accessible element with the role "Theme-Select"
+
+    Here are the accessible roles:
+
+      combobox:
+
+      Name "Theme:":
+      [36m<select[39m
+        [33mclass[39m=[32m"form-select"[39m
+        [33mid[39m=[32m"userEmotions"[39m
+        [33mstyle[39m=[32m"margin-right: 10px;"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      option:
+
+      Name "Watermelon":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme1"[39m
+      [36m/>[39m
+
+      Name "Modern":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme2"[39m
+      [36m/>[39m
+
+      Name "Cotton Candy":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme3"[39m
+      [36m/>[39m
+
+      Name "Retro":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme4"[39m
+      [36m/>[39m
+
+      Name "Dark Mode":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme5"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mstyle[39m=[32m"display: flex; align-items: center;"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"form-label"[39m
+            [33mfor[39m=[32m"userEmotions"[39m
+            [33mstyle[39m=[32m"margin-right: 10px;"[39m
+          [36m>[39m
+            [0mTheme:[0m
+          [36m</label>[39m
+          [36m<select[39m
+            [33mclass[39m=[32m"form-select"[39m
+            [33mid[39m=[32m"userEmotions"[39m
+            [33mstyle[39m=[32m"margin-right: 10px;"[39m
+          [36m>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme1"[39m
+            [36m>[39m
+              [0mWatermelon[0m
+            [36m</option>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme2"[39m
+            [36m>[39m
+              [0mModern[0m
+            [36m</option>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme3"[39m
+            [36m>[39m
+              [0mCotton Candy[0m
+            [36m</option>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme4"[39m
+            [36m>[39m
+              [0mRetro[0m
+            [36m</option>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme5"[39m
+            [36m>[39m
+              [0mDark Mode[0m
+            [36m</option>[39m
+          [36m</select>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 19 |[39m   test([32m"Theme Drop Down"[39m[33m,[39m () [33m=>[39m {
+     [90m 20 |[39m     render([33m<[39m[33mThemeSelect[39m[33m>[39m[33m<[39m[33m/[39m[33mThemeSelect[39m[33m>[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 21 |[39m     [36mconst[39m testToggle[33m:[39m [33mHTMLElement[39m[] [33m=[39m screen[33m.[39mgetAllByRole([32m"Theme-Select"[39m)[33m;[39m
+     [90m    |[39m                                              [31m[1m^[22m[39m
+     [90m 22 |[39m     expect(themeState)[33m.[39mtoBe([32m"body-theme1"[39m)[33m;[39m
+     [90m 23 |[39m     expect(testToggle[[35m0[39m])[33m.[39mtoHaveValue([32m"body-theme1"[39m)[33m;[39m
+     [90m 24 |[39m     act(() [33m=>[39m {[0m
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:109:15)
+      at Object.<anonymous> (src/Tests/Components.test.tsx:21:46)
+
+  ● Theme Tests › Changed body name
+
+    TestingLibraryElementError: Unable to find an accessible element with the role "Theme-Select"
+
+    Here are the accessible roles:
+
+      combobox:
+
+      Name "Theme:":
+      [36m<select[39m
+        [33mclass[39m=[32m"form-select"[39m
+        [33mid[39m=[32m"userEmotions"[39m
+        [33mstyle[39m=[32m"margin-right: 10px;"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      option:
+
+      Name "Watermelon":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme1"[39m
+      [36m/>[39m
+
+      Name "Modern":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme2"[39m
+      [36m/>[39m
+
+      Name "Cotton Candy":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme3"[39m
+      [36m/>[39m
+
+      Name "Retro":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme4"[39m
+      [36m/>[39m
+
+      Name "Dark Mode":
+      [36m<option[39m
+        [33mvalue[39m=[32m"body-theme5"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      Button-link:
+
+      Name "":
+      [36m<button[39m
+        [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+        [33mrole[39m=[32m"Button-link"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "":
+      [36m<button[39m
+        [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+        [33mrole[39m=[32m"Button-link"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "":
+      [36m<button[39m
+        [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+        [33mrole[39m=[32m"Button-link"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      button:
+
+      Name "Submit":
+      [36m<button[39m
+        [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"body-theme1"[39m
+          [33mid[39m=[32m"bigBody"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"General-header"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-toggle"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mstyle[39m=[32m"display: flex; align-items: center;"[39m
+              [36m>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"form-label"[39m
+                  [33mfor[39m=[32m"userEmotions"[39m
+                  [33mstyle[39m=[32m"margin-right: 10px;"[39m
+                [36m>[39m
+                  [0mTheme:[0m
+                [36m</label>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"form-select"[39m
+                  [33mid[39m=[32m"userEmotions"[39m
+                  [33mstyle[39m=[32m"margin-right: 10px;"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme1"[39m
+                  [36m>[39m
+                    [0mWatermelon[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme2"[39m
+                  [36m>[39m
+                    [0mModern[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme3"[39m
+                  [36m>[39m
+                    [0mCotton Candy[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme4"[39m
+                  [36m>[39m
+                    [0mRetro[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme5"[39m
+                  [36m>[39m
+                    [0mDark Mode[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+              [36m</div>[39m
+            [36m</span>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-text"[39m
+            [36m>[39m
+              [0mThe Career Lab[0m
+            [36m</span>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Header-button"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+                [33mrole[39m=[32m"Button-link"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</button>[39m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Page-body"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"Page-text"[39m
+            [36m>[39m
+              [0mWelcome to the Career Lab! We have two quizzes you can take to help find your ideal career. Your answers will be reviewed by ChatGPT to generate a custom report of what caeer paths suit you the best. This project created by: Alex Hoy, Connor Jackson, Ryan Jones, and Rory Jordan.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"container"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"row"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Button-format"[39m
+                  [36m>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+                      [33mrole[39m=[32m"Button-link"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mBasic Quiz[0m
+                    [36m</button>[39m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-basic"[39m
+                  [36m>[39m
+                    [0mThis is a basic quiz with 15 questions.[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-basic"[39m
+                  [36m>[39m
+                    [0mIt will take around 5 to 10 minutes to complete.[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-basic"[39m
+                  [36m>[39m
+                    [0mThe questions are simple and multiple choice.[0m
+                  [36m</p>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Button-format"[39m
+                  [36m>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"Button-link btn btn-primary"[39m
+                      [33mrole[39m=[32m"Button-link"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mDetailed Quiz[0m
+                    [36m</button>[39m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-detailed"[39m
+                  [36m>[39m
+                    [0mThis is a detailed quiz with 30 questions.[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-detailed"[39m
+                  [36m>[39m
+                    [0mIt will take around 10 to 15 minutes to complete.[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"Text-detailed"[39m
+                  [36m>[39m
+                    [0mThe questions are answered on a scale.[0m
+                  [36m</p>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"API-Footer"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m""[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-label"[39m
+              [36m>[39m
+                [0mAPI Key:[0m
+              [36m</label>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-control"[39m
+                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                [33mtype[39m=[32m"password"[39m
+              [36m/>[39m
+              [36m<br />[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSubmit[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 34 |[39m     )[33m;[39m
+     [90m 35 |[39m     expect(themeState)[33m.[39mtoBe([32m"body-theme1"[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m testToggle[33m:[39m [33mHTMLElement[39m[] [33m=[39m screen[33m.[39mgetAllByRole([32m"Theme-Select"[39m)[33m;[39m
+     [90m    |[39m                                              [31m[1m^[22m[39m
+     [90m 37 |[39m     act(() [33m=>[39m {
+     [90m 38 |[39m       testToggle[[35m0[39m][33m.[39mclick()[33m;[39m
+     [90m 39 |[39m     })[33m;[39m[0m
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at getAllByRole (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:109:15)
+      at Object.<anonymous> (src/Tests/Components.test.tsx:36:46)
+
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 PASS src/Tests/SimpleQuestions.test.tsx
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -68,8 +444,8 @@ All files               |   41.37 |    16.41 |      44 |   41.47 |
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                   
 ------------------------|---------|----------|---------|---------|-----------------------------------
 
-Test Suites: 6 passed, 6 total
-Tests:       26 passed, 26 total
+Test Suites: 1 failed, 5 passed, 6 total
+Tests:       2 failed, 24 passed, 26 total
 Snapshots:   0 total
-Time:        5.308 s
+Time:        5.524 s
 Ran all test suites.
