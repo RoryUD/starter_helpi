@@ -423,7 +423,7 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|-----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
 ------------------------|---------|----------|---------|---------|-----------------------------------
-All files               |   41.37 |    16.41 |      44 |   41.47 |                                   
+All files               |   41.44 |    18.57 |      44 |   41.53 |                                   
  src                    |       0 |        0 |       0 |       0 |                                   
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                              
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                              
@@ -433,12 +433,12 @@ All files               |   41.37 |    16.41 |      44 |   41.47 |
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                                
   ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                   
   ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                             
- src/Pages              |   42.17 |    18.03 |   41.02 |   42.29 |                                   
+ src/Pages              |   42.24 |    20.31 |   41.02 |   42.35 |                                   
   DetailedQuestions.tsx |   35.29 |    11.53 |   41.66 |   36.14 | 18,27-33,66-97,103-131,172        
   DetailedReport.tsx    |   63.33 |    44.44 |    62.5 |   62.06 | 19,28-33,59-85                    
   Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                          
   SimpleQuestions.tsx   |   40.74 |     5.55 |   36.36 |   40.74 | 17,23,30-36,71-94,100-124,195-203 
-  SimpleReport.tsx      |    37.5 |    33.33 |      20 |    37.5 | 18,28-33,39-73                    
+  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-75                    
  src/QuestionData       |       0 |        0 |       0 |       0 |                                   
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                   
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                   
@@ -447,5 +447,5 @@ All files               |   41.37 |    16.41 |      44 |   41.47 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       2 failed, 24 passed, 26 total
 Snapshots:   0 total
-Time:        5.524 s
+Time:        5.399 s
 Ran all test suites.
