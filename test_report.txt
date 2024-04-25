@@ -7,7 +7,6 @@ PASS src/Tests/Components.test.tsx
 PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
-PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -20,6 +19,7 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -71,5 +71,5 @@ All files               |   41.37 |    15.38 |      44 |   41.47 |
 Test Suites: 6 passed, 6 total
 Tests:       26 passed, 26 total
 Snapshots:   0 total
-Time:        5.294 s
+Time:        5.322 s
 Ran all test suites.
