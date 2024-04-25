@@ -23,19 +23,24 @@ FAIL src/Tests/Components.test.tsx
       --------------------------------------------------
       option:
 
-      Name "Watermelon":
+      Name "Basic":
       [36m<option[39m
         [33mvalue[39m=[32m"body-theme1"[39m
       [36m/>[39m
 
       Name "Cotton Candy":
       [36m<option[39m
+        [33mvalue[39m=[32m"body-theme2"[39m
+      [36m/>[39m
+
+      Name "Forest":
+      [36m<option[39m
         [33mvalue[39m=[32m"body-theme3"[39m
       [36m/>[39m
 
       Name "Modern":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme2"[39m
+        [33mvalue[39m=[32m"body-theme4"[39m
       [36m/>[39m
 
       Name "Midnight":
@@ -45,12 +50,12 @@ FAIL src/Tests/Components.test.tsx
 
       Name "Retro":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme4"[39m
+        [33mvalue[39m=[32m"body-theme6"[39m
       [36m/>[39m
 
-      Name "Forest":
+      Name "Watermelon":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme6"[39m
+        [33mvalue[39m=[32m"body-theme7"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -76,15 +81,20 @@ FAIL src/Tests/Components.test.tsx
             [36m<option[39m
               [33mvalue[39m=[32m"body-theme1"[39m
             [36m>[39m
-              [0mWatermelon[0m
+              [0mBasic[0m
             [36m</option>[39m
             [36m<option[39m
-              [33mvalue[39m=[32m"body-theme3"[39m
+              [33mvalue[39m=[32m"body-theme2"[39m
             [36m>[39m
               [0mCotton Candy[0m
             [36m</option>[39m
             [36m<option[39m
-              [33mvalue[39m=[32m"body-theme2"[39m
+              [33mvalue[39m=[32m"body-theme3"[39m
+            [36m>[39m
+              [0mForest[0m
+            [36m</option>[39m
+            [36m<option[39m
+              [33mvalue[39m=[32m"body-theme4"[39m
             [36m>[39m
               [0mModern[0m
             [36m</option>[39m
@@ -94,14 +104,14 @@ FAIL src/Tests/Components.test.tsx
               [0mMidnight[0m
             [36m</option>[39m
             [36m<option[39m
-              [33mvalue[39m=[32m"body-theme4"[39m
+              [33mvalue[39m=[32m"body-theme6"[39m
             [36m>[39m
               [0mRetro[0m
             [36m</option>[39m
             [36m<option[39m
-              [33mvalue[39m=[32m"body-theme6"[39m
+              [33mvalue[39m=[32m"body-theme7"[39m
             [36m>[39m
-              [0mForest[0m
+              [0mWatermelon[0m
             [36m</option>[39m
           [36m</select>[39m
         [36m</div>[39m
@@ -139,19 +149,24 @@ FAIL src/Tests/Components.test.tsx
       --------------------------------------------------
       option:
 
-      Name "Watermelon":
+      Name "Basic":
       [36m<option[39m
         [33mvalue[39m=[32m"body-theme1"[39m
       [36m/>[39m
 
       Name "Cotton Candy":
       [36m<option[39m
+        [33mvalue[39m=[32m"body-theme2"[39m
+      [36m/>[39m
+
+      Name "Forest":
+      [36m<option[39m
         [33mvalue[39m=[32m"body-theme3"[39m
       [36m/>[39m
 
       Name "Modern":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme2"[39m
+        [33mvalue[39m=[32m"body-theme4"[39m
       [36m/>[39m
 
       Name "Midnight":
@@ -161,12 +176,12 @@ FAIL src/Tests/Components.test.tsx
 
       Name "Retro":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme4"[39m
+        [33mvalue[39m=[32m"body-theme6"[39m
       [36m/>[39m
 
-      Name "Forest":
+      Name "Watermelon":
       [36m<option[39m
-        [33mvalue[39m=[32m"body-theme6"[39m
+        [33mvalue[39m=[32m"body-theme7"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -235,15 +250,20 @@ FAIL src/Tests/Components.test.tsx
                   [36m<option[39m
                     [33mvalue[39m=[32m"body-theme1"[39m
                   [36m>[39m
-                    [0mWatermelon[0m
+                    [0mBasic[0m
                   [36m</option>[39m
                   [36m<option[39m
-                    [33mvalue[39m=[32m"body-theme3"[39m
+                    [33mvalue[39m=[32m"body-theme2"[39m
                   [36m>[39m
                     [0mCotton Candy[0m
                   [36m</option>[39m
                   [36m<option[39m
-                    [33mvalue[39m=[32m"body-theme2"[39m
+                    [33mvalue[39m=[32m"body-theme3"[39m
+                  [36m>[39m
+                    [0mForest[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"body-theme4"[39m
                   [36m>[39m
                     [0mModern[0m
                   [36m</option>[39m
@@ -253,14 +273,14 @@ FAIL src/Tests/Components.test.tsx
                     [0mMidnight[0m
                   [36m</option>[39m
                   [36m<option[39m
-                    [33mvalue[39m=[32m"body-theme4"[39m
+                    [33mvalue[39m=[32m"body-theme6"[39m
                   [36m>[39m
                     [0mRetro[0m
                   [36m</option>[39m
                   [36m<option[39m
-                    [33mvalue[39m=[32m"body-theme6"[39m
+                    [33mvalue[39m=[32m"body-theme7"[39m
                   [36m>[39m
-                    [0mForest[0m
+                    [0mWatermelon[0m
                   [36m</option>[39m
                 [36m</select>[39m
               [36m</div>[39m
@@ -402,6 +422,7 @@ FAIL src/Tests/Components.test.tsx
       at Object.<anonymous> (src/Tests/Components.test.tsx:36:46)
 
 PASS src/Tests/DetailedQuestions.test.tsx
+PASS src/Tests/SimpleReport.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -414,7 +435,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-PASS src/Tests/SimpleReport.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -467,5 +487,5 @@ All files               |   41.44 |    21.05 |      44 |   41.53 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       2 failed, 24 passed, 26 total
 Snapshots:   0 total
-Time:        5.569 s
+Time:        5.539 s
 Ran all test suites.
