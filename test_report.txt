@@ -47,7 +47,7 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   39.13 |    21.05 |   41.66 |    39.2 |                                  
+All files               |   39.13 |    24.05 |   41.66 |    39.2 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
@@ -57,9 +57,9 @@ All files               |   39.13 |    21.05 |   41.66 |    39.2 |
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
   ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                  
   ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                            
- src/Pages              |   39.63 |    22.85 |   37.83 |   39.72 |                                  
+ src/Pages              |   39.63 |    26.02 |   37.83 |   39.72 |                                  
   DetailedQuestions.tsx |   31.25 |    14.28 |   36.36 |   32.05 | 18,27-33,59-90,96-124,165        
-  DetailedReport.tsx    |   63.33 |    44.44 |    62.5 |   62.06 | 19,28-33,59-85                   
+  DetailedReport.tsx    |   63.33 |    58.33 |    62.5 |   62.06 | 19,28-33,59-85                   
   Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                         
   SimpleQuestions.tsx   |   36.84 |    13.63 |      30 |   36.84 | 17,23,30-36,64-87,93-117,185-193 
   SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-75                   
@@ -71,5 +71,5 @@ All files               |   39.13 |    21.05 |   41.66 |    39.2 |
 Test Suites: 6 passed, 6 total
 Tests:       26 passed, 26 total
 Snapshots:   0 total
-Time:        5.397 s
+Time:        5.416 s
 Ran all test suites.
