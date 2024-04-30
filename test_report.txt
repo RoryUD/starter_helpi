@@ -19,6 +19,7 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -31,7 +32,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -62,7 +62,7 @@ All files               |   39.13 |    24.05 |   41.66 |    39.2 |
   DetailedReport.tsx    |   63.33 |    58.33 |    62.5 |   62.06 | 19,28-33,59-85                   
   Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                         
   SimpleQuestions.tsx   |   36.84 |    13.63 |      30 |   36.84 | 17,23,30-36,64-87,93-117,185-193 
-  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-75                   
+  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                   
  src/QuestionData       |       0 |        0 |       0 |       0 |                                  
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
   SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
@@ -71,5 +71,5 @@ All files               |   39.13 |    24.05 |   41.66 |    39.2 |
 Test Suites: 6 passed, 6 total
 Tests:       26 passed, 26 total
 Snapshots:   0 total
-Time:        5.4 s
+Time:        5.383 s
 Ran all test suites.
