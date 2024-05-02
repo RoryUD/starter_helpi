@@ -19,6 +19,7 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -31,7 +32,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -47,7 +47,7 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   39.45 |    24.05 |      40 |   39.52 |                                  
+All files               |   39.46 |    25.92 |      40 |   39.53 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
@@ -57,11 +57,11 @@ All files               |   39.45 |    24.05 |      40 |   39.52 |
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
   ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                  
   ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                            
- src/Pages              |      40 |    26.02 |   35.89 |   40.09 |                                  
+ src/Pages              |      40 |       28 |   35.89 |   40.08 |                                  
   DetailedQuestions.tsx |   31.64 |    14.28 |   36.36 |   32.46 | 18,27-33,59-87,93-118,159        
   DetailedReport.tsx    |      60 |    58.33 |      50 |   58.82 | 19,28-33,63-70,76-99             
   Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                         
-  SimpleQuestions.tsx   |   37.33 |    13.63 |      30 |   37.33 | 17,23,30-36,64-86,92-115,174-189 
+  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,182-197 
   SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                   
  src/QuestionData       |       0 |        0 |       0 |       0 |                                  
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
@@ -71,5 +71,5 @@ All files               |   39.45 |    24.05 |      40 |   39.52 |
 Test Suites: 6 passed, 6 total
 Tests:       24 passed, 24 total
 Snapshots:   0 total
-Time:        5.38 s
+Time:        5.357 s
 Ran all test suites.
