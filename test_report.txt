@@ -1917,6 +1917,265 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleReport.test.tsx
+  ● Console
+
+    console.error
+      Error: Not implemented: window.scrollTo
+          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
+          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
+          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
+          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
+          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
+          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
+          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:8:11)
+          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
+          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5)
+          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
+          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
+          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
+          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
+          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
+
+    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
+     [90m 18 |[39m   useEffect(() [33m=>[39m {
+    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+      at src/Components/LinkButton.tsx:19:12
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:8:11)
+
+    console.error
+      Error: Not implemented: window.scrollTo
+          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
+          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
+          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
+          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
+          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
+          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
+          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:17:11)
+          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
+          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5)
+          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
+          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
+          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
+          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
+          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
+
+    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
+     [90m 18 |[39m   useEffect(() [33m=>[39m {
+    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+      at src/Components/LinkButton.tsx:19:12
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:17:11)
+
+    console.error
+      Error: Not implemented: window.scrollTo
+          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
+          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
+          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
+          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
+          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
+          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
+          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:26:11)
+          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
+          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5)
+          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
+          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
+          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
+          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
+          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
+
+    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
+     [90m 18 |[39m   useEffect(() [33m=>[39m {
+    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+      at src/Components/LinkButton.tsx:19:12
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:26:11)
+
+    console.error
+      Error: Not implemented: window.scrollTo
+          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
+          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
+          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
+          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
+          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
+          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
+          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
+          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:35:11)
+          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
+          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5)
+          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
+          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
+          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
+          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
+          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
+          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
+
+    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
+     [90m 18 |[39m   useEffect(() [33m=>[39m {
+    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
+     [90m 21 |[39m
+     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
+      at src/Components/LinkButton.tsx:19:12
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
+      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
+      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
+      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
+      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
+      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
+      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
+      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:35:11)
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 PASS src/Tests/SimpleQuestions.test.tsx
   ● Console
 
@@ -2420,265 +2679,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-PASS src/Tests/SimpleReport.test.tsx
-  ● Console
-
-    console.error
-      Error: Not implemented: window.scrollTo
-          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
-          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
-          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
-          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
-          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
-          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
-          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
-          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:8:11)
-          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
-          at new Promise (<anonymous>)
-          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
-          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
-          at processTicksAndRejections (node:internal/process/task_queues:96:5)
-          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
-          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
-          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
-          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
-          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
-          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
-
-    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
-     [90m 18 |[39m   useEffect(() [33m=>[39m {
-    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
-     [90m    |[39m            [31m[1m^[22m[39m
-     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
-     [90m 21 |[39m
-     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
-
-      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
-      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
-      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-      at src/Components/LinkButton.tsx:19:12
-      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
-      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
-      at act (node_modules/react/cjs/react.development.js:2582:11)
-      at node_modules/@testing-library/react/dist/act-compat.js:63:25
-      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
-      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
-      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:8:11)
-
-    console.error
-      Error: Not implemented: window.scrollTo
-          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
-          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
-          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
-          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
-          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
-          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
-          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
-          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:17:11)
-          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
-          at new Promise (<anonymous>)
-          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
-          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
-          at processTicksAndRejections (node:internal/process/task_queues:96:5)
-          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
-          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
-          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
-          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
-          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
-          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
-
-    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
-     [90m 18 |[39m   useEffect(() [33m=>[39m {
-    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
-     [90m    |[39m            [31m[1m^[22m[39m
-     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
-     [90m 21 |[39m
-     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
-
-      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
-      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
-      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-      at src/Components/LinkButton.tsx:19:12
-      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
-      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
-      at act (node_modules/react/cjs/react.development.js:2582:11)
-      at node_modules/@testing-library/react/dist/act-compat.js:63:25
-      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
-      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
-      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:17:11)
-
-    console.error
-      Error: Not implemented: window.scrollTo
-          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
-          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
-          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
-          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
-          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
-          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
-          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
-          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:26:11)
-          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
-          at new Promise (<anonymous>)
-          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
-          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
-          at processTicksAndRejections (node:internal/process/task_queues:96:5)
-          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
-          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
-          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
-          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
-          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
-          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
-
-    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
-     [90m 18 |[39m   useEffect(() [33m=>[39m {
-    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
-     [90m    |[39m            [31m[1m^[22m[39m
-     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
-     [90m 21 |[39m
-     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
-
-      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
-      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
-      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-      at src/Components/LinkButton.tsx:19:12
-      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
-      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
-      at act (node_modules/react/cjs/react.development.js:2582:11)
-      at node_modules/@testing-library/react/dist/act-compat.js:63:25
-      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
-      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
-      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:26:11)
-
-    console.error
-      Error: Not implemented: window.scrollTo
-          at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
-          at scrollTo (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:19:12
-          at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-          at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-          at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-          at commitPassiveMountEffects_begin (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-          at commitPassiveMountEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-          at flushPassiveEffectsImpl (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-          at flushPassiveEffects (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:26769:9
-          at flushActQueue (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2667:24)
-          at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2582:11)
-          at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
-          at renderRoot (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:159:26)
-          at render (/home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/pure.js:246:10)
-          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/Tests/SimpleReport.test.tsx:35:11)
-          at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
-          at new Promise (<anonymous>)
-          at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
-          at _callCircusTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:218:40)
-          at processTicksAndRejections (node:internal/process/task_queues:96:5)
-          at _runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:155:3)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:66:9)
-          at _runTestsForDescribeBlock (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:60:9)
-          at run (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/run.js:25:3)
-          at runAndTransformResultsToJestFormat (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
-          at jestAdapter (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-          at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
-          at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
-          at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
-
-    [0m [90m 17 |[39m   [90m//Scrolls to the top of the page[39m
-     [90m 18 |[39m   useEffect(() [33m=>[39m {
-    [31m[1m>[22m[39m[90m 19 |[39m     window[33m.[39mscrollTo([35m0[39m[33m,[39m [35m0[39m)[33m;[39m
-     [90m    |[39m            [31m[1m^[22m[39m
-     [90m 20 |[39m   }[33m,[39m [])[33m;[39m
-     [90m 21 |[39m
-     [90m 22 |[39m   [90m//Link button component, all formatted using the general css file[39m[0m
-
-      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
-      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
-      at scrollTo (node_modules/jsdom/lib/jsdom/browser/Window.js:866:7)
-      at src/Components/LinkButton.tsx:19:12
-      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
-      at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
-      at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
-      at commitPassiveMountEffects_begin (node_modules/react-dom/cjs/react-dom.development.js:24878:7)
-      at commitPassiveMountEffects (node_modules/react-dom/cjs/react-dom.development.js:24866:3)
-      at flushPassiveEffectsImpl (node_modules/react-dom/cjs/react-dom.development.js:27039:3)
-      at flushPassiveEffects (node_modules/react-dom/cjs/react-dom.development.js:26984:14)
-      at node_modules/react-dom/cjs/react-dom.development.js:26769:9
-      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
-      at act (node_modules/react/cjs/react.development.js:2582:11)
-      at node_modules/@testing-library/react/dist/act-compat.js:63:25
-      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
-      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
-      at Object.<anonymous> (src/Tests/SimpleReport.test.tsx:35:11)
-
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
@@ -2696,7 +2696,7 @@ All files               |   39.92 |    25.92 |   41.17 |      40 |
   DetailedQuestions.tsx |   31.64 |    14.28 |   36.36 |   32.46 | 18,27-33,59-87,93-118,159        
   DetailedReport.tsx    |      60 |    58.33 |      50 |   58.82 | 19,28-33,63-70,76-99             
   Home.tsx              |      60 |       50 |   33.33 |      60 | 15,23-28                         
-  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,187-202 
+  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,188-203 
   SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                   
  src/QuestionData       |       0 |        0 |       0 |       0 |                                  
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
@@ -2706,5 +2706,5 @@ All files               |   39.92 |    25.92 |   41.17 |      40 |
 Test Suites: 6 passed, 6 total
 Tests:       24 passed, 24 total
 Snapshots:   0 total
-Time:        5.496 s
+Time:        5.557 s
 Ran all test suites.
