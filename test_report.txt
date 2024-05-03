@@ -3,6 +3,7 @@
 > react-scripts test --coverage
 
 PASS src/Tests/Home.test.tsx
+PASS src/Tests/DetailedReport.test.tsx
 FAIL src/Tests/Components.test.tsx
   ● Console
 
@@ -283,34 +284,33 @@ FAIL src/Tests/Components.test.tsx
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at Object.<anonymous> (src/Tests/Components.test.tsx:55:8)
 
-PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 PASS src/Tests/SimpleQuestions.test.tsx
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -326,7 +326,7 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
 ------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   40.44 |     26.5 |   38.88 |   40.52 |                                  
+All files               |   40.22 |     26.5 |   37.73 |   40.29 |                                  
  src                    |       0 |        0 |       0 |       0 |                                  
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
@@ -336,8 +336,8 @@ All files               |   40.44 |     26.5 |   38.88 |   40.52 |
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
   ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                  
   ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                            
- src/Pages              |   40.08 |       28 |   33.33 |   40.17 |                                  
-  DetailedQuestions.tsx |   31.64 |    14.28 |   36.36 |   32.46 | 18,27-33,59-87,93-118,159        
+ src/Pages              |   39.83 |       28 |    31.7 |   39.91 |                                  
+  DetailedQuestions.tsx |   30.76 |    14.28 |      30 |   31.57 | 18,27-33,59-87,93-118,159        
   DetailedReport.tsx    |   57.14 |    58.33 |   38.46 |   56.09 | 19,28-33,63-72,85-111,119,170    
   Home.tsx              |      60 |       50 |   33.33 |      60 | 16,24-29                         
   SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,188-203 
@@ -350,5 +350,5 @@ All files               |   40.44 |     26.5 |   38.88 |   40.52 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.371 s
+Time:        5.493 s
 Ran all test suites.
