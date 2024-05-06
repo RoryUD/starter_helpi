@@ -3,7 +3,6 @@
 > react-scripts test --coverage
 
 PASS src/Tests/Home.test.tsx
-PASS src/Tests/DetailedReport.test.tsx
 FAIL src/Tests/Components.test.tsx
   ● Console
 
@@ -284,6 +283,7 @@ FAIL src/Tests/Components.test.tsx
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at Object.<anonymous> (src/Tests/Components.test.tsx:55:8)
 
+PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
 PASS src/Tests/SimpleReport.test.tsx
 PASS src/Tests/SimpleQuestions.test.tsx
@@ -323,32 +323,32 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-------------------------|---------|----------|---------|---------|----------------------------------
-File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                
-------------------------|---------|----------|---------|---------|----------------------------------
-All files               |   40.22 |     26.5 |   37.73 |   40.29 |                                  
- src                    |       0 |        0 |       0 |       0 |                                  
-  index.tsx             |       0 |      100 |     100 |       0 | 8-23                             
-  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                             
- src/Components         |    62.5 |       25 |      70 |    62.5 |                                  
-  LinkButton.tsx        |     100 |       50 |     100 |     100 | 24                               
-  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                               
-  SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                               
-  ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                  
-  ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                            
- src/Pages              |   39.83 |       28 |    31.7 |   39.91 |                                  
-  DetailedQuestions.tsx |   30.76 |    14.28 |      30 |   31.57 | 18,27-33,59-87,93-118,159        
-  DetailedReport.tsx    |   57.14 |    58.33 |   38.46 |   56.09 | 19,28-33,63-72,85-111,119,170    
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 16,24-29                         
-  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,188-203 
-  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                   
- src/QuestionData       |       0 |        0 |       0 |       0 |                                  
-  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                  
-  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                  
-------------------------|---------|----------|---------|---------|----------------------------------
+------------------------|---------|----------|---------|---------|-----------------------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
+------------------------|---------|----------|---------|---------|-----------------------------------
+All files               |   39.92 |     26.5 |   36.36 |      40 |                                   
+ src                    |       0 |        0 |       0 |       0 |                                   
+  index.tsx             |       0 |      100 |     100 |       0 | 8-23                              
+  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                              
+ src/Components         |    62.5 |       25 |      70 |    62.5 |                                   
+  LinkButton.tsx        |     100 |       50 |     100 |     100 | 24                                
+  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                
+  SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                                
+  ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                   
+  ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                             
+ src/Pages              |   39.49 |       28 |   30.23 |   39.57 |                                   
+  DetailedQuestions.tsx |   30.76 |    14.28 |      30 |   31.57 | 18,27-33,59-87,93-118,159         
+  DetailedReport.tsx    |   54.54 |    58.33 |   33.33 |   53.48 | 19,28-33,63-72,85-111,119,160-178 
+  Home.tsx              |      60 |       50 |   33.33 |      60 | 16,24-29                          
+  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-89,95-120,188-203  
+  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                    
+ src/QuestionData       |       0 |        0 |       0 |       0 |                                   
+  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                   
+  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                   
+------------------------|---------|----------|---------|---------|-----------------------------------
 
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.493 s
+Time:        5.365 s
 Ran all test suites.
