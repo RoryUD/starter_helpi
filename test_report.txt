@@ -298,6 +298,7 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -310,7 +311,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-PASS src/Tests/SimpleQuestions.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -326,11 +326,12 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|-----------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
 ------------------------|---------|----------|---------|---------|-----------------------------------
-All files               |   39.92 |     26.5 |   36.36 |      40 |                                   
+All files               |   39.78 |     26.5 |   35.71 |   39.85 |                                   
  src                    |       0 |        0 |       0 |       0 |                                   
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                              
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                              
- src/Components         |    62.5 |       25 |      70 |    62.5 |                                   
+ src/Components         |      60 |       25 |   63.63 |      60 |                                   
+  AudioPlayer.tsx       |       0 |      100 |       0 |       0 | 4                                 
   LinkButton.tsx        |     100 |       50 |     100 |     100 | 24                                
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                                
@@ -350,5 +351,5 @@ All files               |   39.92 |     26.5 |   36.36 |      40 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.327 s
+Time:        5.337 s
 Ran all test suites.
