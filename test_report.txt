@@ -340,7 +340,7 @@ All files               |   39.78 |     26.5 |   35.71 |   39.85 |
  src/Pages              |   39.49 |       28 |   30.23 |   39.57 |                                   
   DetailedQuestions.tsx |   30.76 |    14.28 |      30 |   31.57 | 18,27-33,59-86,92-117,158         
   DetailedReport.tsx    |   54.54 |    58.33 |   33.33 |   53.48 | 19,28-33,63-72,85-111,119,160-178 
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 16,24-29                          
+  Home.tsx              |      60 |       50 |   33.33 |      60 | 18,26-31                          
   SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 17,23,30-36,66-88,94-119,187-202  
   SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                    
  src/QuestionData       |       0 |        0 |       0 |       0 |                                   
@@ -351,5 +351,5 @@ All files               |   39.78 |     26.5 |   35.71 |   39.85 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.337 s
+Time:        5.313 s
 Ran all test suites.
