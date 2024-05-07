@@ -385,6 +385,18 @@ FAIL src/Tests/Components.test.tsx
 
 PASS src/Tests/DetailedReport.test.tsx
 PASS src/Tests/DetailedQuestions.test.tsx
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 PASS src/Tests/SimpleReport.test.tsx
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
@@ -411,22 +423,10 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 ------------------------|---------|----------|---------|---------|------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                  
 ------------------------|---------|----------|---------|---------|------------------------------------
-All files               |   40.43 |     26.5 |   36.84 |   40.51 |                                    
+All files               |   40.65 |    24.69 |   36.84 |   40.74 |                                    
  src                    |       0 |        0 |       0 |       0 |                                    
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                               
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                               
@@ -437,11 +437,11 @@ All files               |   40.43 |     26.5 |   36.84 |   40.51 |
   SliderQuestion.tsx    |      50 |      100 |      50 |      50 | 15                                 
   ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                    
   ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                              
- src/Pages              |   39.49 |       28 |   30.23 |   39.57 |                                    
+ src/Pages              |   39.74 |    26.02 |   30.23 |   39.82 |                                    
   DetailedQuestions.tsx |   30.76 |    14.28 |      30 |   31.57 | 18,27-33,59-86,92-117,158          
   DetailedReport.tsx    |   54.54 |    58.33 |   33.33 |   53.48 | 19,28-33,63-72,85-111,119,160-178  
   Home.tsx              |      60 |       50 |   33.33 |      60 | 19,27-32                           
-  SimpleQuestions.tsx   |    37.5 |    20.83 |      30 |    37.5 | 34,40,47-53,83-105,111-136,204-219 
+  SimpleQuestions.tsx   |   38.15 |    13.63 |      30 |   38.15 | 52,58,65-71,99-120,126-149,215-230 
   SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 18,28-33,39-77                     
  src/QuestionData       |       0 |        0 |       0 |       0 |                                    
   DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                    
@@ -451,5 +451,5 @@ All files               |   40.43 |     26.5 |   36.84 |   40.51 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.333 s
+Time:        5.497 s
 Ran all test suites.
