@@ -1172,7 +1172,7 @@ FAIL src/Tests/Components.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at handleButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:18:20)
           at onClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/LinkButton.tsx:49:22)
           at HTMLUnknownElement.callCallback (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
@@ -1220,19 +1220,19 @@ FAIL src/Tests/Components.test.tsx
           at runTestInternal (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:389:16)
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at handleButtonClick (src/Components/LinkButton.tsx:18:20)
       at onClick (src/Components/LinkButton.tsx:49:22)
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:4164:14)
@@ -2018,7 +2018,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2049,19 +2049,19 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2205,7 +2205,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2236,19 +2236,19 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2392,7 +2392,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2423,19 +2423,19 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2579,7 +2579,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -2610,19 +2610,19 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3040,7 +3040,7 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/SimpleQuestions.tsx:89:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3071,19 +3071,19 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/SimpleQuestions.tsx:89:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3227,7 +3227,7 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/SimpleQuestions.tsx:89:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3258,19 +3258,19 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/SimpleQuestions.tsx:89:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3414,7 +3414,7 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/SimpleQuestions.tsx:89:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3445,19 +3445,19 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/SimpleQuestions.tsx:89:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3601,7 +3601,7 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at module.exports (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:15:21)
+          at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:20:21)
           at /home/runner/work/starter_helpi/starter_helpi/src/Pages/SimpleQuestions.tsx:89:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3632,19 +3632,19 @@ PASS src/Tests/SimpleQuestions.test.tsx
           at runTest (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/runTest.js:475:34)
           at Object.worker (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-runner/build/testWorker.js:133:12) undefined
 
-    [0m [90m 13 |[39m [90m//Sound effect played when buttons clicked[39m
-     [90m 14 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
-    [31m[1m>[22m[39m[90m 15 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
+    [0m [90m 18 |[39m [90m//Sound effect played when buttons clicked[39m
+     [90m 19 |[39m [36mexport[39m [36mfunction[39m playButtonClick() {
+    [31m[1m>[22m[39m[90m 20 |[39m   buttonSoundEffect[33m.[39mplay()[33m;[39m
      [90m    |[39m                     [31m[1m^[22m[39m
-     [90m 16 |[39m }
-     [90m 17 |[39m [90m//Sound effect played when slider placed[39m
-     [90m 18 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
+     [90m 21 |[39m }
+     [90m 22 |[39m [90m//Sound effect played when slider placed[39m
+     [90m 23 |[39m [36mexport[39m [36mfunction[39m playSliderSet() {[0m
 
       at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
       at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
-      at playButtonClick (src/Components/AudioPlayer.tsx:15:21)
+      at playButtonClick (src/Components/AudioPlayer.tsx:20:21)
       at src/Pages/SimpleQuestions.tsx:89:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
@@ -3676,12 +3676,12 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|---------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                     
 ------------------------|---------|----------|---------|---------|---------------------------------------
-All files               |   41.69 |    26.66 |   37.09 |   41.78 |                                       
+All files               |   41.94 |    26.66 |   37.09 |   42.03 |                                       
  src                    |       0 |        0 |       0 |       0 |                                       
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                                  
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                                  
- src/Components         |   59.09 |    16.66 |    62.5 |   59.09 |                                       
-  AudioPlayer.tsx       |   46.15 |        0 |      50 |   46.15 | 19,28-36                              
+ src/Components         |   59.57 |    16.66 |    62.5 |   59.57 |                                       
+  AudioPlayer.tsx       |      50 |        0 |      50 |      50 | 24,34-44                              
   LinkButton.tsx        |     100 |       50 |     100 |     100 | 36                                    
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                    
   SliderQuestion.tsx    |   33.33 |      100 |      50 |   33.33 | 16-17                                 
@@ -3701,5 +3701,5 @@ All files               |   41.69 |    26.66 |   37.09 |   41.78 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        6.041 s
+Time:        6.357 s
 Ran all test suites.
