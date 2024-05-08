@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.450d9f1e.css",
-    "main.js": "/starter_helpi/static/js/main.18a6fba6.js",
+    "main.css": "/starter_helpi/static/css/main.87f490a3.css",
+    "main.js": "/starter_helpi/static/js/main.6c94ab2a.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/Burgers.mp3": "/starter_helpi/static/media/Burgers.1c9f813fb3d92bb0b09f.mp3",
     "static/media/Home-Page-Detailed.jpg": "/starter_helpi/static/media/Home-Page-Detailed.d25ff99a1818fd243042.jpg",
@@ -26,12 +26,12 @@
     "static/media/Slider-Click.mp3": "/starter_helpi/static/media/Slider-Click.eb4c9eb05c3b7980456b.mp3",
     "static/media/Button-Click2-Trimmed.mp3": "/starter_helpi/static/media/Button-Click2-Trimmed.7059f09cc0e3769bde48.mp3",
     "index.html": "/starter_helpi/index.html",
-    "main.450d9f1e.css.map": "/starter_helpi/static/css/main.450d9f1e.css.map",
-    "main.18a6fba6.js.map": "/starter_helpi/static/js/main.18a6fba6.js.map",
+    "main.87f490a3.css.map": "/starter_helpi/static/css/main.87f490a3.css.map",
+    "main.6c94ab2a.js.map": "/starter_helpi/static/js/main.6c94ab2a.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.450d9f1e.css",
-    "static/js/main.18a6fba6.js"
+    "static/css/main.87f490a3.css",
+    "static/js/main.6c94ab2a.js"
   ]
 }
