@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/starter_helpi/static/css/main.cb1c5b8e.css",
-    "main.js": "/starter_helpi/static/js/main.c1d5d1ea.js",
+    "main.js": "/starter_helpi/static/js/main.260add17.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/Mii-Channel.mp3": "/starter_helpi/static/media/Mii-Channel.4876ec53953f4ffc3508.mp3",
     "static/media/Home-Page-Detailed.jpg": "/starter_helpi/static/media/Home-Page-Detailed.d25ff99a1818fd243042.jpg",
@@ -26,11 +26,11 @@
     "static/media/Button-Click.mp3": "/starter_helpi/static/media/Button-Click.e0298dbd6e9c3c212907.mp3",
     "index.html": "/starter_helpi/index.html",
     "main.cb1c5b8e.css.map": "/starter_helpi/static/css/main.cb1c5b8e.css.map",
-    "main.c1d5d1ea.js.map": "/starter_helpi/static/js/main.c1d5d1ea.js.map",
+    "main.260add17.js.map": "/starter_helpi/static/js/main.260add17.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb1c5b8e.css",
-    "static/js/main.c1d5d1ea.js"
+    "static/js/main.260add17.js"
   ]
 }
