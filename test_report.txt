@@ -3676,12 +3676,12 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|---------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                     
 ------------------------|---------|----------|---------|---------|---------------------------------------
-All files               |   41.83 |    26.66 |   37.09 |   41.92 |                                       
+All files               |   41.69 |    26.66 |   37.09 |   41.78 |                                       
  src                    |       0 |        0 |       0 |       0 |                                       
   index.tsx             |       0 |      100 |     100 |       0 | 8-23                                  
   reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                                  
- src/Components         |   60.46 |    16.66 |    62.5 |   60.46 |                                       
-  AudioPlayer.tsx       |      50 |        0 |      50 |      50 | 19,29-35                              
+ src/Components         |   59.09 |    16.66 |    62.5 |   59.09 |                                       
+  AudioPlayer.tsx       |   46.15 |        0 |      50 |   46.15 | 19,28-36                              
   LinkButton.tsx        |     100 |       50 |     100 |     100 | 36                                    
   RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                    
   SliderQuestion.tsx    |   33.33 |      100 |      50 |   33.33 | 16-17                                 
@@ -3701,5 +3701,5 @@ All files               |   41.83 |    26.66 |   37.09 |   41.92 |
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        6.432 s
+Time:        6.041 s
 Ran all test suites.
