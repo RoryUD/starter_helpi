@@ -2690,7 +2690,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
           at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:12:21)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:50:20
+          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
           at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -2733,7 +2733,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
       at playButtonClick (src/Components/AudioPlayer.tsx:12:21)
-      at src/Pages/DetailedQuestions.tsx:50:20
+      at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
       at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -2938,7 +2938,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
           at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:12:21)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:50:20
+          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
           at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -2981,7 +2981,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
       at playButtonClick (src/Components/AudioPlayer.tsx:12:21)
-      at src/Pages/DetailedQuestions.tsx:50:20
+      at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
       at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -3186,7 +3186,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
           at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:12:21)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:50:20
+          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
           at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -3229,7 +3229,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
       at playButtonClick (src/Components/AudioPlayer.tsx:12:21)
-      at src/Pages/DetailedQuestions.tsx:50:20
+      at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
       at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -3434,7 +3434,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
           at HTMLAudioElementImpl.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
           at HTMLAudioElement.play (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
           at playButtonClick (/home/runner/work/starter_helpi/starter_helpi/src/Components/AudioPlayer.tsx:12:21)
-          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:50:20
+          at /home/runner/work/starter_helpi/starter_helpi/src/Pages/DetailedQuestions.tsx:123:20
           at commitHookEffectListMount (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:23150:26)
           at commitPassiveMountOnFiber (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24931:11)
           at commitPassiveMountEffects_complete (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -3477,7 +3477,7 @@ PASS src/Tests/DetailedQuestions.test.tsx
       at HTMLAudioElementImpl.play (node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
       at HTMLAudioElement.play (node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:145:60)
       at playButtonClick (src/Components/AudioPlayer.tsx:12:21)
-      at src/Pages/DetailedQuestions.tsx:50:20
+      at src/Pages/DetailedQuestions.tsx:123:20
       at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:23150:26)
       at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom.development.js:24931:11)
       at commitPassiveMountEffects_complete (node_modules/react-dom/cjs/react-dom.development.js:24891:9)
@@ -5015,33 +5015,33 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-------------------------|---------|----------|---------|---------|-------------------------------------
-File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                   
-------------------------|---------|----------|---------|---------|-------------------------------------
-All files               |   42.21 |    26.74 |   39.34 |    42.3 |                                     
- src                    |       0 |        0 |       0 |       0 |                                     
-  index.tsx             |       0 |      100 |     100 |       0 | 8-23                                
-  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                                
- src/Components         |   64.28 |    16.66 |   68.75 |   64.28 |                                     
-  AudioPlayer.tsx       |   61.53 |        0 |      60 |   61.53 | 16,29-33                            
-  LinkButton.tsx        |     100 |       50 |     100 |     100 | 35                                  
-  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                  
-  SliderQuestion.tsx    |   33.33 |      100 |      50 |   33.33 | 16-17                               
-  ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                     
-  ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                               
- src/Pages              |   40.25 |    28.94 |   30.23 |   40.34 |                                     
-  DetailedQuestions.tsx |   31.64 |    14.28 |      30 |   32.46 | 19,29-35,67-97,105-133,186          
-  DetailedReport.tsx    |   54.54 |    66.66 |   33.33 |   53.48 | 20,29-34,66-76,90-116,121,165-183   
-  Home.tsx              |      60 |       50 |   33.33 |      60 | 19,27-32                            
-  SimpleQuestions.tsx   |   38.96 |    13.63 |      30 |   38.96 | 54,60,67-73,108-132,141-170,239-254 
-  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 19,31-36,42-80                      
- src/QuestionData       |       0 |        0 |       0 |       0 |                                     
-  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                     
-  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                     
-------------------------|---------|----------|---------|---------|-------------------------------------
+------------------------|---------|----------|---------|---------|---------------------------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                     
+------------------------|---------|----------|---------|---------|---------------------------------------
+All files               |   42.32 |    27.27 |    38.7 |   42.41 |                                       
+ src                    |       0 |        0 |       0 |       0 |                                       
+  index.tsx             |       0 |      100 |     100 |       0 | 8-23                                  
+  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10                                  
+ src/Components         |   64.28 |    16.66 |   68.75 |   64.28 |                                       
+  AudioPlayer.tsx       |   61.53 |        0 |      60 |   61.53 | 16,29-33                              
+  LinkButton.tsx        |     100 |       50 |     100 |     100 | 35                                    
+  RoutePaths.tsx        |       0 |      100 |       0 |       0 | 11                                    
+  SliderQuestion.tsx    |   33.33 |      100 |      50 |   33.33 | 16-17                                 
+  ThemeParent.tsx       |     100 |      100 |     100 |     100 |                                       
+  ThemeSelect.tsx       |      30 |        0 |      50 |      30 | 12-21                                 
+ src/Pages              |   40.41 |    29.48 |   29.54 |    40.5 |                                       
+  DetailedQuestions.tsx |   31.64 |    14.28 |      30 |   32.46 | 92,102-108,140-170,178-206,259        
+  DetailedReport.tsx    |   54.16 |     64.7 |   31.25 |   53.19 | 20,29-34,66-77,94-120,126,131,179-197 
+  Home.tsx              |      60 |       50 |   33.33 |      60 | 19,27-32                              
+  SimpleQuestions.tsx   |   38.96 |    13.63 |      30 |   38.96 | 54,60,67-73,108-132,141-170,239-254   
+  SimpleReport.tsx      |   38.46 |    44.44 |      20 |   38.46 | 19,31-36,42-80                        
+ src/QuestionData       |       0 |        0 |       0 |       0 |                                       
+  DetailedQuestion.ts   |       0 |        0 |       0 |       0 |                                       
+  SimpleQuestion.ts     |       0 |        0 |       0 |       0 |                                       
+------------------------|---------|----------|---------|---------|---------------------------------------
 
 Test Suites: 1 failed, 5 passed, 6 total
 Tests:       1 failed, 23 passed, 24 total
 Snapshots:   0 total
-Time:        5.957 s
+Time:        5.919 s
 Ran all test suites.
