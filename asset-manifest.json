@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/starter_helpi/static/css/main.8173b3b3.css",
-    "main.js": "/starter_helpi/static/js/main.0ddb4262.js",
+    "main.js": "/starter_helpi/static/js/main.cbe0b06e.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/BackgroundMusic.mp3": "/starter_helpi/static/media/BackgroundMusic.1c9f813fb3d92bb0b09f.mp3",
     "static/media/Home-Page-Detailed.jpg": "/starter_helpi/static/media/Home-Page-Detailed.d25ff99a1818fd243042.jpg",
@@ -19,19 +19,20 @@
     "static/media/Simple-Question-1.jpg": "/starter_helpi/static/media/Simple-Question-1.35203fda58325c97b66f.jpg",
     "static/media/Simple-Question-8.jpg": "/starter_helpi/static/media/Simple-Question-8.c73ffa4981ce4017b943.jpg",
     "static/media/Simple-Question-4.jpg": "/starter_helpi/static/media/Simple-Question-4.18d75b4886c11412e1cf.jpg",
+    "static/media/Slider-Down.mp3": "/starter_helpi/static/media/Slider-Down.785d05d9311bc08ef715.mp3",
     "static/media/Home-Page-Basic.jpg": "/starter_helpi/static/media/Home-Page-Basic.8b4a7285326882aa9326.jpg",
     "static/media/Simple-Question-11.jpg": "/starter_helpi/static/media/Simple-Question-11.fd7038d9048d0cd1e01e.jpg",
     "static/media/Simple-Question-14.jpg": "/starter_helpi/static/media/Simple-Question-14.1063ab5e3b923b74d796.jpg",
     "static/media/End-Quiz.jpg": "/starter_helpi/static/media/End-Quiz.3c0c69f64d648eaea51e.jpg",
-    "static/media/Slider-Click.mp3": "/starter_helpi/static/media/Slider-Click.eb4c9eb05c3b7980456b.mp3",
+    "static/media/Slider-Up.mp3": "/starter_helpi/static/media/Slider-Up.eb4c9eb05c3b7980456b.mp3",
     "static/media/Button-Click2-Trimmed.mp3": "/starter_helpi/static/media/Button-Click2-Trimmed.7059f09cc0e3769bde48.mp3",
     "index.html": "/starter_helpi/index.html",
     "main.8173b3b3.css.map": "/starter_helpi/static/css/main.8173b3b3.css.map",
-    "main.0ddb4262.js.map": "/starter_helpi/static/js/main.0ddb4262.js.map",
+    "main.cbe0b06e.js.map": "/starter_helpi/static/js/main.cbe0b06e.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8173b3b3.css",
-    "static/js/main.0ddb4262.js"
+    "static/js/main.cbe0b06e.js"
   ]
 }
