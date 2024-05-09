@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starter_helpi/static/css/main.af69b767.css",
-    "main.js": "/starter_helpi/static/js/main.644a9ead.js",
+    "main.css": "/starter_helpi/static/css/main.8173b3b3.css",
+    "main.js": "/starter_helpi/static/js/main.5ab7a635.js",
     "static/js/453.bad6c33a.chunk.js": "/starter_helpi/static/js/453.bad6c33a.chunk.js",
     "static/media/BackgroundMusic.mp3": "/starter_helpi/static/media/BackgroundMusic.1c9f813fb3d92bb0b09f.mp3",
     "static/media/Home-Page-Detailed.jpg": "/starter_helpi/static/media/Home-Page-Detailed.d25ff99a1818fd243042.jpg",
@@ -26,12 +26,12 @@
     "static/media/Slider-Click.mp3": "/starter_helpi/static/media/Slider-Click.eb4c9eb05c3b7980456b.mp3",
     "static/media/Button-Click2-Trimmed.mp3": "/starter_helpi/static/media/Button-Click2-Trimmed.7059f09cc0e3769bde48.mp3",
     "index.html": "/starter_helpi/index.html",
-    "main.af69b767.css.map": "/starter_helpi/static/css/main.af69b767.css.map",
-    "main.644a9ead.js.map": "/starter_helpi/static/js/main.644a9ead.js.map",
+    "main.8173b3b3.css.map": "/starter_helpi/static/css/main.8173b3b3.css.map",
+    "main.5ab7a635.js.map": "/starter_helpi/static/js/main.5ab7a635.js.map",
     "453.bad6c33a.chunk.js.map": "/starter_helpi/static/js/453.bad6c33a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af69b767.css",
-    "static/js/main.644a9ead.js"
+    "static/css/main.8173b3b3.css",
+    "static/js/main.5ab7a635.js"
   ]
 }
