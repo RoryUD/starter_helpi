@@ -45,12 +45,12 @@ function SimpleReport() {
 
   const exampleFormat =
     "~Sample Career: 2-3 sentences of why this is a good fit~Another Sample Career: 2-3 sentences of why this is a good fit~Final Sample Career: 2-3 sentences of why this is a good fit";
-  let UserRolePrompt = `Based on my quiz results, what job suits me best? Here are my results: ${simpleQuestionQuizResults}`
+  let UserRolePrompt = `Based on my quiz results, what job suits me best? Here are my results: ${simpleQuestionQuizResults}`;
   let GPTRole =
     "You are a helpful career advisor. You will be provided a students result to a career quiz. Provide a list of 3 careers, with '~' as the bulletpoint. Here is the example format" +
     exampleFormat +
     "Include the tilda (~) in the report string, it is important.";
-  
+
   // Sets the user and system prompt
   function setPrompt(newUserPrompt: string, newGPTPrompt: string) {
     UserRolePrompt = newUserPrompt;
@@ -119,7 +119,7 @@ function SimpleReport() {
 
   const getPrevReport = () => {
     setOnMoreDetailedPage(false);
-    setLoadingText("Loading Report...")
+    setLoadingText("Loading Report...");
     setCareerList([...prevCareerList]);
   };
 
@@ -129,19 +129,32 @@ function SimpleReport() {
 
       <div className="Page-body">
         <div className="Report-space">
-          {!loading && careerList.length < 3 && !responseData ? <div><div className="Report-header">View your Simple Quiz Results!</div>
-          <Form className="Report-body">
-            <Button className="Button-chatGPT" onClick={generateReport}>
-              Generate Report
-            </Button>
-          </Form></div> : 
-          !loading && <Form className="Report-body">
-            {onMoreDetailedPage && (
-              <Button className="Button-chatGPT" onClick={getPrevReport} disabled={careerList.length >= 3}>
-                Back To Report
-              </Button>
-            )}
-          </Form>}
+          {!loading && careerList.length < 3 && !responseData ? (
+            <div>
+              <div className="Report-header">
+                View your Simple Quiz Results!
+              </div>
+              <Form className="Report-body">
+                <Button className="Button-chatGPT" onClick={generateReport}>
+                  Generate Report
+                </Button>
+              </Form>
+            </div>
+          ) : (
+            !loading && (
+              <Form className="Report-body">
+                {onMoreDetailedPage && (
+                  <Button
+                    className="Button-chatGPT"
+                    onClick={getPrevReport}
+                    disabled={careerList.length >= 3}
+                  >
+                    Back To Report
+                  </Button>
+                )}
+              </Form>
+            )
+          )}
           {loading && (
             <div className="Loading-body">
               <Spinner animation="border" role="status">
@@ -192,7 +205,9 @@ function SimpleReport() {
               </div>
             </div>
           )}
-          {!loading && careerList.length < 3 && <div className="Detailed-response-text">{responseData}</div>}
+          {!loading && careerList.length < 3 && (
+            <div className="Detailed-response-text">{responseData}</div>
+          )}
         </div>
       </div>
 

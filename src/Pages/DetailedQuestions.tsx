@@ -12,7 +12,6 @@ import "../Formatting/Questions.css";
 import "../Formatting/DetailedQuestions.css";
 
 // Image imports
-
 // Images 1-10
 import Image1 from "../Images/Detailed-Question-1.jpg";
 import Image2 from "../Images/Detailed-Question-2.jpg";
@@ -48,7 +47,6 @@ import Image29 from "../Images/Detailed-Question-29.jpg";
 import Image30 from "../Images/Detailed-Question-30.jpg";
 // End of Quiz
 import EndOfQuizImage from "../Images/End-Quiz.jpg";
-
 
 const questionImages = [
   Image1,
@@ -217,13 +215,13 @@ function DetailedQuestions() {
         <Container>
           <Row>
             <Col className="DetailedQuestions-questions">
-            <img
-            src={questionImages[questionNumber]}
-            alt="Not Available..."
-            width="600"
-            height="354"
-            style={{ borderRadius: "10px" }}
-          />
+              <img
+                className="DetailedQuestions-images"
+                src={questionImages[questionNumber]}
+                alt="Not Available..."
+                width="600"
+                height="354"
+              />
               <div className="Slider-whole" id="sliderQuestion">
                 <SliderQuestion
                   value={currSliderValue}

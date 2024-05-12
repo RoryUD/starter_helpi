@@ -48,6 +48,19 @@
   background-color: var(--color-body-TextBackground);
 }
 
+.DetailedQuestions-images {
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin-left: 1vw;
+  align-items: right;
+  justify-content: right;
+  align-self: right;
+  text-align: right;
+  border-radius: 10px;
+  margin-top: 1vh;
+}
+
 .DetailedQuestions-buttons {
   position: relative;
   display: flex;
