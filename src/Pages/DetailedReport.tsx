@@ -172,7 +172,7 @@ function DetailedReport() {
                 Based on your answers:
               </span>
               <div>
-                <br />
+              <hr />
                 <span className="Report-results-header">Career 1:</span>
                 <li>{careerList[1]}</li>
                 <div>
@@ -183,7 +183,7 @@ function DetailedReport() {
                     Explore Career 1
                   </Button>
                 </div>
-                <br />
+                <hr />
                 <span className="Report-results-header">Career 2:</span>
                 <li>{careerList[2]}</li>
                 <div>
@@ -194,7 +194,7 @@ function DetailedReport() {
                     Explore Career 2
                   </Button>
                 </div>
-                <br />
+                <hr />
                 <span className="Report-results-header">Career 3:</span>
                 <li>{careerList[3]}</li>
                 <div>
