@@ -172,7 +172,7 @@ function DetailedReport() {
                 Based on your answers:
               </span>
               <div>
-              <hr />
+                <hr />
                 <span className="Report-results-header">Career 1:</span>
                 <li>{careerList[1]}</li>
                 <div>
